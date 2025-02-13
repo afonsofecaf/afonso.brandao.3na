@@ -1,0 +1,17 @@
+# Arquivos e diretórios que o Git deve ignorar
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do Cargo
+target/
+Cargo.lock
+
+# Logs e arquivos temporários gerais
+*.log
+*.tmp
+
+# Outros arquivos que não devem ser versionados (como chaves de API)
+.env
+
